@@ -16,10 +16,10 @@
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'com.xuexiang.xaop'
-apply plugin: 'android-aspectjx'
+apply plugin: 'io.github.wurensen.android-aspectjx'
 
 android {
     compileSdkVersion build_versions.target_sdk
